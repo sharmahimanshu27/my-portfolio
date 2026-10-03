@@ -82,7 +82,15 @@ src/
 │   ├── SectionNav.tsx
 │   └── sections/
 ├── styles/
-│   └── global.css
+│   ├── global.css
+│   ├── navigation.css
+│   ├── intro.css
+│   ├── about.css
+│   ├── experience.css
+│   ├── projects.css
+│   ├── skills.css
+│   ├── education.css
+│   └── contact.css
 └── test/
   └── setup.ts
 e2e/
