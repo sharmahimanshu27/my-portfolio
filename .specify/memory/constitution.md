@@ -1,50 +1,40 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report
+Version change: uninitialized -> 1.0.0
+Modified principles: none; all five principles are established by this initial constitution.
+Added sections: Technology and Architecture; Engineering Workflow.
+Removed sections: none.
+Follow-up TODOs: Confirm the original ratification date.
+-->
+# my-portfolio Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Readable, Consistent Code
+Changes MUST follow the established conventions of the relevant language and project. Names and control flow MUST make intent clear; linting and formatting checks MUST pass before changes are considered complete. Rationale: predictable code is easier to review and safer to change.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Automated Testing and Verification
+Behavior changes MUST have automated tests at the narrowest useful level. Tests MUST cover expected behavior and relevant failure or boundary cases. Before completion, contributors MUST run the applicable tests and report any checks that could not be run. Rationale: verification makes regressions visible and conclusions reproducible.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Maintainability by Design
+Implementations MUST favor small, cohesive units and explicit boundaries. New abstractions MUST remove meaningful duplication or complexity; speculative generalization MUST be avoided. Changes MUST update affected documentation and tests when contracts or workflows change. Rationale: code is maintained longer than it is first written.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Accessible, Responsive Experience
+User-facing changes MUST remain usable with keyboard navigation, readable contrast, meaningful labels, and responsive layouts. Relevant accessibility and viewport behavior MUST be checked during implementation. Rationale: a portfolio is only effective when visitors can use it across devices and abilities.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Dependency and Security Hygiene
+Dependencies MUST have a clear purpose and MUST use supported, maintained versions where practical. Changes MUST NOT expose secrets or introduce avoidable security risks; dependency changes MUST be reviewed for impact and license compatibility. Rationale: third-party code is part of the application's operational and security surface.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Technology and Architecture
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+The portfolio user interface MUST use React. New framework or runtime dependencies beyond the established stack MUST have a documented need. Implementations MUST preserve existing project architecture unless an approved change explicitly revises it.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Engineering Workflow
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+Each change MUST be scoped to a clear outcome, reviewed for correctness and maintainability, and validated with relevant automated checks. Integration or end-to-end tests MUST be added when behavior crosses component or system boundaries and unit tests alone cannot verify the contract. Reviewers MUST identify untested behavior and unresolved risks before approval.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution governs project implementation and review. Every change MUST comply with these principles; any exception MUST state its scope, rationale, and follow-up plan in the change record. Amendments MUST be reviewed, update this document, and include a Sync Impact Report for human review. Versioning follows semantic versioning: MAJOR for incompatible governance changes, MINOR for new or materially expanded principles or sections, and PATCH for clarifications that do not change obligations. Reviewers MUST check changes against applicable principles and confirm required validation has run before approval.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: TODO(RATIFICATION_DATE): original adoption date unknown | **Last Amended**: 2026-10-03
