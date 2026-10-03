@@ -68,7 +68,7 @@ A visitor who wants to follow up can choose a clear contact method, visit the ow
 
 ### Functional Requirements
 
-- **FR-001**: The portfolio MUST identify its owner with a name, professional role, concise summary of focus, and a clear primary action.
+- **FR-001**: The portfolio MUST identify its owner with a name, professional role, concise summary of focus, public location, confirmed availability status, and a clear primary action.
 - **FR-002**: The portfolio MUST provide navigation to the owner's profile, work, and contact information, with a perceivable indication of the visitor's current location.
 - **FR-003**: The portfolio MUST present an owner profile that explains relevant background and professional focus.
 - **FR-004**: The portfolio MUST present selected projects with their purpose, the owner's contribution, and verified outcomes when supplied; project links MUST only appear when a valid destination is supplied.
@@ -89,6 +89,15 @@ A visitor who wants to follow up can choose a clear contact method, visit the ow
 - **Skill Group**: A named area of expertise and its associated skills.
 - **Contact Destination**: A labeled email, professional profile, or other owner-provided contact destination, optionally accompanied by resume access.
 
+#### Supplied Portfolio Content
+
+- **Owner**: Himanshu Sharma; Frontend Developer specializing in React.js, JavaScript, and TypeScript; Bengaluru, Karnataka; open to opportunities. Use the supplied professional summary describing 2.5+ years of frontend experience and product-focused React work.
+- **Public contact**: `sharmah665@gmail.com` and `https://www.linkedin.com/in/himanshusharma-7ab80b2a6`. Do not publish the supplied phone number.
+- **Experience**: Frontend Developer at Brioso Technologies (March 2025-August 2026); Frontend Developer / Software Engineer at Logic Junior (December 2023-March 2025). Use the supplied responsibilities and accomplishments without inventing metrics.
+- **Projects**: Clinic Appointment Booking System (patient and clinic-staff booking workflows; React, Node.js, Express.js, MongoDB, REST APIs) and AI Data Management Platform (structured and unstructured data workflows; resumable uploads; React, TypeScript, Redux, REST APIs). No public project URLs were supplied.
+- **Skills**: JavaScript, TypeScript, HTML5, CSS3; React.js, React Hooks, Redux, React Router, Context API; Tailwind CSS, Bootstrap, Material UI, responsive design; REST APIs, Axios, JSON; reusable components, state management, form handling, validation, error handling, debugging; Git, GitHub, Postman, Chrome DevTools.
+- **Education**: Bachelor of Technology in Computer Science & Engineering, Chouksey Engineering College. Dates were not supplied.
+
 ## Success Criteria *(mandatory)*
 
 ### Measurable Outcomes
@@ -103,7 +112,9 @@ A visitor who wants to follow up can choose a clear contact method, visit the ow
 
 - The primary audience is prospective employers, collaborators, and clients viewing a public professional portfolio.
 - This is a single-owner portfolio with curated content, not a multi-user publishing system or content-management interface.
-- The owner will supply accurate profile, project, experience, skill, education, credential, contact, and resume content before publication; missing optional content will be omitted.
+- The owner supplied the profile, project, experience, skill, education, and selected public contact content recorded above; no credential details or project URLs were supplied, so none will be invented.
+- The portfolio will display Bengaluru, Karnataka and an “Open to opportunities” status. Public contact methods are email and LinkedIn; the phone number is excluded.
+- No downloadable resume file or portrait was supplied; omit those optional actions and assets unless supplied later.
 - Contact is handled through clearly labeled owner-provided destinations, such as email or professional profiles; a server-backed message form is outside this feature's scope.
 - The linked [Shubhamshshaw/portfolio](https://github.com/Shubhamshshaw/portfolio) is inspiration for content coverage, impact-focused project summaries, and accessible responsive behavior. Its code, assets, wording, and exact visual composition are not to be copied.
 - The experience may use restrained, nonessential motion for emphasis, but content and navigation remain complete when motion is reduced or unavailable.
