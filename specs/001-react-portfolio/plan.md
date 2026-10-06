@@ -43,17 +43,17 @@ experience/projects/skills, education, and contact; no user accounts
 
 ## Constitution Check
 
-*GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
+_GATE: Must pass before Phase 0 research. Re-check after Phase 1 design._
 
-| Gate | Status | Evidence |
-|---|---|---|
-| React is the required UI framework | PASS | Constitution Technology and Architecture |
-| Code remains readable and consistently linted/formatted | PASS | ESLint and Prettier checks are in the plan |
-| Behavior changes are tested and checks reported | PASS | Vitest/RTL plus browser checks and explicit type/build gates |
-| Responsive and accessible behavior is verified | PASS | Keyboard, axe, viewport, and reduced-motion checks are planned |
-| Dependencies have clear purpose and are reviewed | PASS | Small static stack; no backend, CMS, analytics, or contact service |
-| Scope and abstractions remain maintainable | PASS | One page, typed local data, no router or speculative layers |
-| Public content is accurate and privacy choices respected | PASS | Email/LinkedIn/location/status confirmed; phone excluded |
+| Gate                                                     | Status | Evidence                                                           |
+| -------------------------------------------------------- | ------ | ------------------------------------------------------------------ |
+| React is the required UI framework                       | PASS   | Constitution Technology and Architecture                           |
+| Code remains readable and consistently linted/formatted  | PASS   | ESLint and Prettier checks are in the plan                         |
+| Behavior changes are tested and checks reported          | PASS   | Vitest/RTL plus browser checks and explicit type/build gates       |
+| Responsive and accessible behavior is verified           | PASS   | Keyboard, axe, viewport, and reduced-motion checks are planned     |
+| Dependencies have clear purpose and are reviewed         | PASS   | Small static stack; no backend, CMS, analytics, or contact service |
+| Scope and abstractions remain maintainable               | PASS   | One page, typed local data, no router or speculative layers        |
+| Public content is accurate and privacy choices respected | PASS   | Email/LinkedIn/location/status confirmed; phone excluded           |
 
 ## Project Structure
 
@@ -70,6 +70,7 @@ specs/001-react-portfolio/
 ```
 
 ### Source Code (repository root)
+
 ```text
 index.html
 src/
@@ -113,4 +114,4 @@ privacy boundary. No gate violations or complexity exceptions were introduced.
 > **Fill ONLY if Constitution Check has violations that must be justified**
 
 | Violation | Why Needed | Simpler Alternative Rejected Because |
-|-----------|------------|-------------------------------------|
+| --------- | ---------- | ------------------------------------ |

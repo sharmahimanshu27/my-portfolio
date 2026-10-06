@@ -1,0 +1,29 @@
+.contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.contact-list__item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 0.9rem;
+  background: rgba(14, 24, 35, 0.55);
+}
+
+.contact-list__item a {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.contact-list__item span {
+  color: var(--muted);
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}

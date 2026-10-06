@@ -1,6 +1,5 @@
 ---
-
-description: "Executable implementation tasks for the personal portfolio"
+description: 'Executable implementation tasks for the personal portfolio'
 ---
 
 # Tasks: Personal Portfolio

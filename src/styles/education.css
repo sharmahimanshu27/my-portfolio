@@ -1,0 +1,19 @@
+.education-card {
+  max-width: 620px;
+  background: rgba(14, 24, 35, 0.55);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.education-card__qualification {
+  color: var(--text);
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.education-card__institution {
+  color: var(--muted);
+  margin: 0;
+}

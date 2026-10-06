@@ -8,7 +8,7 @@
 
 **Input**: User description: "Create a personal portfolio and use the linked open-source portfolio as inspiration."
 
-## User Scenarios & Testing *(mandatory)*
+## User Scenarios & Testing _(mandatory)_
 
 ### User Story 1 - Understand the Portfolio Owner (Priority: P1)
 
@@ -64,7 +64,7 @@ A visitor who wants to follow up can choose a clear contact method, visit the ow
 - When a visitor has requested reduced motion, nonessential movement is suppressed and no information or control depends on animation.
 - When an external destination is unavailable, the portfolio still presents the remaining content and contact options.
 
-## Requirements *(mandatory)*
+## Requirements _(mandatory)_
 
 ### Functional Requirements
 
@@ -82,7 +82,7 @@ A visitor who wants to follow up can choose a clear contact method, visit the ow
 - **FR-012**: The portfolio MUST use semantic page structure, readable text contrast, and descriptive text alternatives for meaningful images.
 - **FR-013**: The portfolio MUST use only accurate owner-provided information and MUST omit unavailable or unverified details rather than inventing them.
 
-### Key Entities *(include if feature involves data)*
+### Key Entities _(include if feature involves data)_
 
 - **Owner Profile**: The owner's name, role, summary, biography, portrait if supplied, and professional focus.
 - **Professional Record**: A project, role, education item, credential, or award with a title, description, organization or context, dates, and optional verified outcome or link.
@@ -98,7 +98,7 @@ A visitor who wants to follow up can choose a clear contact method, visit the ow
 - **Skills**: JavaScript, TypeScript, HTML5, CSS3; React.js, React Hooks, Redux, React Router, Context API; Tailwind CSS, Bootstrap, Material UI, responsive design; REST APIs, Axios, JSON; reusable components, state management, form handling, validation, error handling, debugging; Git, GitHub, Postman, Chrome DevTools.
 - **Education**: Bachelor of Technology in Computer Science & Engineering, Chouksey Engineering College. Dates were not supplied.
 
-## Success Criteria *(mandatory)*
+## Success Criteria _(mandatory)_
 
 ### Measurable Outcomes
 
